@@ -5,7 +5,7 @@ import { CiLocationOn } from "react-icons/ci";
 
 export const Search = () => {
   return (
-    <div className="searchDiv grid gp-10 bg-greyIsh rounded-[.25rem] p-[3rem]">
+    <div className="searchDiv grid gap-10 bg-greyIsh rounded-[.25rem] p-[3rem]">
       <form action="">
         <div className="firstDiv flex justify-between items-center rounded-[.5rem] gap-[.6rem] bg-white p-5 shadow-lg shadow-greyIsh-700">
           <div className="flex gap-2 items-center">
@@ -47,8 +47,34 @@ export const Search = () => {
       <div className="secDiv flex items-center gap-10 justify-center">
         <div className="singleSearch flex items-center gap-2">
             <label htmlFor="relevance" className="text-[#808080] font-semibold">Sort by:</label>
-            <select name="" id="relevance"></select>
+            <select name="" id="relevance" className="bg-white rounded-[.2rem] px-4 py-1">
+              <option value="">Relevance</option>
+              <option value="">Inclusive</option>
+              <option value="">Starts with</option>
+              <option value="">Contains</option>
+            </select>
         </div>
+
+        <div className="singleSearch flex items-center gap-2">
+            <label htmlFor="type" className="text-[#808080] font-semibold">Type:</label>
+            <select name="" id="type" className="bg-white rounded-[.2rem] px-4 py-1">
+              <option value="">Full-time</option>
+              <option value="">Remote</option>
+              <option value="">Contract</option>
+              <option value="">Part-time</option>
+            </select>
+        </div>
+
+        <div className="singleSearch flex items-center gap-2">
+            <label htmlFor="level" className="text-[#808080] font-semibold">Level:</label>
+            <select name="" id="level" className="bg-white rounded-[.2rem] px-4 py-1">
+              <option value="">Senior</option>
+              <option value="">Beginner</option>
+              <option value="">Intermediate</option>
+              <option value="">Advocate</option>
+            </select>
+        </div>
+        <span className="text-[#a1a1a1] cursor-pointer">Clear All</span>
       </div>
     </div>
   );
