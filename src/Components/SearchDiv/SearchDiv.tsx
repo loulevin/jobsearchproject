@@ -44,7 +44,12 @@ export const Search = () => {
         </div>
       </form>
 
-      <div className="secDiv flex items-center gap-10 justify-center"></div>
+      <div className="secDiv flex items-center gap-10 justify-center">
+        <div className="singleSearch flex items-center gap-2">
+            <label htmlFor="relevance" className="text-[#808080] font-semibold">Sort by:</label>
+            <select name="" id="relevance"></select>
+        </div>
+      </div>
     </div>
   );
 };
