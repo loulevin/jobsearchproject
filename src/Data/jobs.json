@@ -1,0 +1,92 @@
+[
+    {
+      "id": 1,
+      "image": "logo1",
+      "title": "Web Developer",
+      "time": "Now",
+      "location": "Canada",
+      "desc": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod, enim.",
+      "company": "Novac Line Co."
+    },
+    {
+      "id": 2,
+      "image": "logo2",
+      "title": "Software Engineer",
+      "time": "2 weeks ago",
+      "location": "United States",
+      "desc": "Exciting opportunity for a skilled software engineer to join our dynamic team.",
+      "company": "Tech Innovators Inc."
+    },
+    {
+      "id": 3,
+      "image": "logo3",
+      "title": "Graphic Designer",
+      "time": "1 month ago",
+      "location": "Australia",
+      "desc": "Create stunning visual content and be part of our creative design team.",
+      "company": "Design Masters Ltd."
+    },
+    {
+      "id": 4,
+      "image": "logo4",
+      "title": "Marketing Manager",
+      "time": "Now",
+      "location": "United Kingdom",
+      "desc": "Lead marketing campaigns and drive brand growth at our established company.",
+      "company": "Global Marketing Solutions"
+    },
+    {
+      "id": 5,
+      "image": "logo5",
+      "title": "Data Analyst",
+      "time": "3 weeks ago",
+      "location": "Germany",
+      "desc": "Work with data to uncover insights and support data-driven decision making.",
+      "company": "Data Insights Corp."
+    },
+    {
+      "id": 6,
+      "image": "logo6",
+      "title": "Customer Support Specialist",
+      "time": "Now",
+      "location": "France",
+      "desc": "Provide exceptional customer service and assist customers with their inquiries.",
+      "company": "CustomerCare Pro"
+    },
+    {
+      "id": 7,
+      "image": "logo7",
+      "title": "Project Manager",
+      "time": "2 months ago",
+      "location": "Spain",
+      "desc": "Lead project teams and ensure successful project delivery for our clients.",
+      "company": "Project Solutions Group"
+    },
+    {
+      "id": 8,
+      "image": "logo8",
+      "title": "Sales Representative",
+      "time": "Now",
+      "location": "Canada",
+      "desc": "Join our sales team and help promote our products to a global audience.",
+      "company": "SalesPro Inc."
+    },
+    {
+      "id": 9,
+      "image": "logo9",
+      "title": "Accountant",
+      "time": "3 weeks ago",
+      "location": "India",
+      "desc": "Manage financial records and ensure compliance with accounting standards.",
+      "company": "Finance Wizards Ltd."
+    },
+    {
+      "id": 10,
+      "image": "logo10",
+      "title": "Human Resources Coordinator",
+      "time": "Now",
+      "location": "Brazil",
+      "desc": "Support HR activities and help create a positive workplace environment.",
+      "company": "HR Solutions Group"
+    }
+  ]
